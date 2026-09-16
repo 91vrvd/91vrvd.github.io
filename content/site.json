@@ -1,0 +1,1568 @@
+{
+  "schemaVersion": 2,
+  "profile": {
+    "name": "7obu.eth",
+    "headline": {
+      "zh": "运营实践者 / Web3 研究与交易实践 / AI 工具使用者",
+      "en": "Operations / Web3 Research & Trading / AI Workflows"
+    },
+    "location": {
+      "zh": "中国 · 可远程协作",
+      "en": "China · Open to Remote Collaboration"
+    },
+    "introduction": {
+      "zh": [
+        "我是 7obu，也使用 7obu.eth 这个公开昵称。过去的工作更靠近民宿、门店和客户服务：接待、订单、OTA 页面、现场协调、物资与资料整理，都是日常的一部分。",
+        "我参与加密货币交易已有 9 年。除了交易所和钱包的日常使用，我也持续关注链上交易、DeFi、空投和新项目。研究一个项目时，我会先看公开资料、团队与融资、代币机制、链上数据、社区反馈和安全风险，再决定是否继续投入时间。",
+        "现在我把一线运营经验、Web3 研究习惯和 AI 工具放在一起使用。重复资料先交给工具归类、比较和生成初稿，再由自己核对来源并判断取舍；做网站也是同样的方式，先把真实需求做成能用的页面，再逐步补齐细节。",
+        "影像内容也是我持续在做的部分。宣传片需要时，我会自己整理拍摄思路和镜头清单，用索尼相机完成地面画面，用大疆无人机补充空间和环境视角，再在达芬奇或剪映里完成剪辑、基础调色、字幕、声音和成片输出。宣传图、平台封面和日常图片也会自己处理。"
+      ],
+      "en": [
+        "I go by 7obu and use 7obu.eth as my public handle. My earlier work was grounded in homestay, store, and guest-service operations, where reception, orders, OTA listings, on-site coordination, inventory, and documentation were part of the routine.",
+        "I have been trading in crypto markets for nine years. Beyond exchanges and wallets, I continue to follow on-chain activity, DeFi, airdrops, and new projects. Before spending more time on a project, I look at public sources, the team and funding, token mechanics, on-chain data, community feedback, and security risks.",
+        "I now combine hands-on operations experience, Web3 research habits, and AI tools. Repetitive material gets organized, compared, and drafted first, then I check the sources and make the final call. I take the same approach to websites: build a useful version around a real need, then improve it through careful iterations.",
+        "Visual production is another part of my work. For a promotional video, I can prepare the shooting plan, capture ground footage with a Sony camera, add aerial and location views with a DJI drone, then handle the edit, basic color work, subtitles, sound, and delivery in DaVinci Resolve or Jianying. I also prepare promotional graphics, platform covers, and everyday image assets."
+      ]
+    },
+    "focusTitle": {
+      "zh": "现在在做什么",
+      "en": "What I Am Working On"
+    },
+    "focus": {
+      "zh": "继续完善 Liu OS，整理 U 卡、加密入门和 Web3 项目研究资料，并把 Codex、Obsidian 与多 Agent 分工变成更稳定的个人研究和创作工作流。",
+      "en": "Improving Liu OS, organizing U-card, beginner crypto, and Web3 project research, and making Codex, Obsidian, and multi-agent task splitting a more dependable research and creative workflow."
+    },
+    "links": {
+      "github": "https://github.com/91vrvd",
+      "x": "https://x.com/samsungcn_eth"
+    }
+  },
+  "projects": [
+    {
+      "id": "liu-os",
+      "title": {
+        "zh": "Liu OS 个人桌面",
+        "en": "Liu OS Personal Desktop"
+      },
+      "category": {
+        "zh": "个人网站",
+        "en": "Personal Website"
+      },
+      "summary": {
+        "zh": "把个人资料、项目、工具和小应用放进一个可操作的 macOS 风格桌面。",
+        "en": "An interactive macOS-inspired desktop for profile information, projects, tools, and small local apps."
+      },
+      "background": {
+        "zh": "普通作品集页面不适合持续放入工具、文档和实验功能，因此我以开源桌面项目为基础，逐步改造成自己的个人系统。",
+        "en": "A conventional portfolio was too limited for tools, documents, and experiments, so I started from an open-source desktop project and gradually reshaped it into a personal system."
+      },
+      "motivation": {
+        "zh": "希望有一个能打开工具、记录笔记，也能持续更新的个人工作台。",
+        "en": "I wanted a personal workspace for tools, notes, and ongoing projects."
+      },
+      "problem": {
+        "zh": "需要让窗口、Dock、语言、主题、数据和移动端交互共存，并保持桌面体验清晰稳定。",
+        "en": "The challenge is keeping windows, Dock behavior, language, themes, data, and mobile interaction coherent and stable."
+      },
+      "features": {
+        "zh": [
+          "桌面窗口与 Dock",
+          "全局中英文切换",
+          "Safari 工具目录",
+          "本地文档与备忘录",
+          "音乐控制中心",
+          "本地小游戏"
+        ],
+        "en": [
+          "Desktop windows and Dock",
+          "Global Chinese and English switching",
+          "Safari-style tool directory",
+          "Local documents and notes",
+          "Control Center media",
+          "Local mini games"
+        ]
+      },
+      "role": {
+        "zh": [
+          "梳理网站内容和功能结构",
+          "用 Codex 协助阅读、修改和测试 React 代码",
+          "持续校对交互、移动端与数据存储"
+        ],
+        "en": [
+          "Defined the site content and feature structure",
+          "Used Codex to inspect, modify, and test the React codebase",
+          "Continuously reviewed interactions, mobile behavior, and data storage"
+        ]
+      },
+      "challenges": {
+        "zh": [
+          "原项目内容和个人资料混在组件中",
+          "复杂窗口中的语言状态容易不同步",
+          "外部网站和媒体受浏览器安全策略限制"
+        ],
+        "en": [
+          "Upstream content and personal data were mixed into components",
+          "Language could drift out of sync across open windows",
+          "External sites and media are constrained by browser security policies"
+        ]
+      },
+      "solutions": {
+        "zh": [
+          "把公开资料集中到配置文件",
+          "所有界面订阅同一语言状态",
+          "说明资源无法加载的原因，并提供外部打开入口"
+        ],
+        "en": [
+          "Centralized public facts in configuration",
+          "Subscribed every interface to one language state",
+          "Explained loading restrictions and added links to open resources externally"
+        ]
+      },
+      "status": {
+        "zh": "功能可用，持续更新中",
+        "en": "Working and actively updated"
+      },
+      "live": "https://91vrvd.github.io/",
+      "next": {
+        "zh": [
+          "继续补齐自动化测试",
+          "整理公开部署流程",
+          "逐步精简首屏资源体积"
+        ],
+        "en": [
+          "Expand automated tests",
+          "Prepare a public deployment workflow",
+          "Reduce initial bundle size over time"
+        ]
+      },
+      "tech": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Zustand",
+        "IndexedDB"
+      ],
+      "screenshot": "/screenshots/preview.png"
+    },
+    {
+      "id": "answers-for-life",
+      "title": {
+        "zh": "给生活的答案",
+        "en": "Answers for Life"
+      },
+      "category": {
+        "zh": "互动答案册",
+        "en": "Interactive Journal"
+      },
+      "summary": {
+        "zh": "一个手机端优先、无需登录、答案只保存在本地的互动答案册，支持选择题、自由书写和图片或 Word 导出。",
+        "en": "A mobile-first interactive journal with no account required, local-only answers, guided choices, free writing, and image or Word exports."
+      },
+      "background": {
+        "zh": "很多自我记录产品要求注册或把内容同步到云端，也常把题目做成一次性测试。这个项目把主题题库、连续回答和可保存结果放进一个无需登录的轻量网页。",
+        "en": "Many reflection products require accounts or cloud storage and reduce prompts to one-off quizzes. This project keeps themed prompts, ongoing answers, and exportable results in a lightweight no-login experience."
+      },
+      "motivation": {
+        "zh": "希望用户能在不交出私人答案的前提下，认真回答一些关于成长、生活、关系、工作与金钱的问题，并把结果留在自己手里。",
+        "en": "The goal was to let people reflect on growth, life, relationships, work, and money without giving their private answers to a server."
+      },
+      "problem": {
+        "zh": "需要在手机小屏上兼顾 354 条题目、两种回答方式、进度续接和长内容导出，同时确保刷新后可以继续，数据不会上传。",
+        "en": "The product needed to handle 354 prompts, two answer modes, resumable progress, and long-form exports on small screens while keeping data local."
+      },
+      "features": {
+        "zh": [
+          "12 个主题与 354 条题目",
+          "选择题与自由书写",
+          "自动保存与继续回答",
+          "多页 PNG 与 Word 答案册导出",
+          "网页与原生微信小程序共用题库"
+        ],
+        "en": [
+          "12 themes and 354 prompts",
+          "Guided choices and free writing",
+          "Autosave and resume",
+          "Multi-page PNG and Word exports",
+          "Shared prompt library for web and native WeChat mini-program"
+        ]
+      },
+      "role": {
+        "zh": [
+          "梳理产品流程、主题结构与题库规则",
+          "用 Codex 协助实现和测试网页及微信小程序",
+          "设计本地保存、断点续答和导出体验",
+          "完成开源整理、README 与在线发布"
+        ],
+        "en": [
+          "Defined the product flow, theme structure, and prompt rules",
+          "Used Codex to implement and test the web app and WeChat mini-program",
+          "Designed local persistence, resume, and export flows",
+          "Prepared the open-source repository, documentation, and deployment"
+        ]
+      },
+      "challenges": {
+        "zh": [
+          "长答案与完整结果需要稳定分页导出",
+          "用户中途退出后仍要准确恢复进度",
+          "网页与小程序需要共用同一套题库数据",
+          "隐私说明必须与实际存储行为保持一致"
+        ],
+        "en": [
+          "Long answers and full results required reliable paginated exports",
+          "Progress had to resume accurately after leaving",
+          "Web and mini-program builds needed one shared prompt source",
+          "Privacy copy had to match actual storage behavior"
+        ]
+      },
+      "solutions": {
+        "zh": [
+          "按内容长度生成多页图片，并为书写主题提供 Word 导出",
+          "使用本地存储保存主题、题目、答案与进度",
+          "通过生成脚本同步网页题库到小程序",
+          "不接入账号、数据库或上传接口，明确本地保存边界"
+        ],
+        "en": [
+          "Generated multi-page images by content length and added Word export for writing themes",
+          "Stored theme, prompt, answer, and progress state locally",
+          "Generated mini-program data from the web prompt source",
+          "Avoided accounts, databases, and upload APIs while documenting local-only boundaries"
+        ]
+      },
+      "status": {
+        "zh": "已开源并上线，可直接体验",
+        "en": "Open source and live"
+      },
+      "next": {
+        "zh": [
+          "继续完善无障碍与导出模板",
+          "探索用户主动备份、导入和更多主题",
+          "微信小程序正式发布仍需后续提交审核"
+        ],
+        "en": [
+          "Improve accessibility and export templates",
+          "Explore user-controlled backup, import, and more themes",
+          "Submit the WeChat mini-program for review when ready"
+        ]
+      },
+      "tech": [
+        "React 19",
+        "TypeScript",
+        "Vinext",
+        "Vite 8",
+        "LocalStorage",
+        "docx",
+        "WeChat Mini Program"
+      ],
+      "screenshot": "/screenshots/answers-for-life.png",
+      "github": "https://github.com/91vrvd/answers-for-life",
+      "live": "https://little-things-about-love.qq1279622658.chatgpt.site/"
+    },
+    {
+      "id": "ucards-compare",
+      "title": {
+        "zh": "U 卡对比百科",
+        "en": "U Card Compare Wiki"
+      },
+      "category": {
+        "zh": "资料网站",
+        "en": "Reference Website"
+      },
+      "summary": {
+        "zh": "把加密消费卡的返现、费用、KYC、地区限制和常见问题整理成可比较的页面。",
+        "en": "A comparison reference for crypto payment cards, covering rewards, fees, KYC, regional limits, and common questions."
+      },
+      "background": {
+        "zh": "相关信息分散在产品页面、公告和社区讨论中，查看时很难快速横向比较。",
+        "en": "Relevant details were scattered across product pages, announcements, and community discussions, making side-by-side comparison difficult."
+      },
+      "motivation": {
+        "zh": "先为自己的选择过程做一份结构化清单，再把适合公开的部分整理成网页。",
+        "en": "It began as a structured checklist for my own research and later became a public reference page."
+      },
+      "problem": {
+        "zh": "同一张卡在不同地区、时间和活动下的费用与权益可能变化，资料必须标明边界并持续核对。",
+        "en": "Fees and benefits can change by region, date, and campaign, so the data needs clear boundaries and regular verification."
+      },
+      "features": {
+        "zh": [
+          "卡片信息对比",
+          "费用与返现整理",
+          "KYC 与地区说明",
+          "安全提示与常见问题"
+        ],
+        "en": [
+          "Card comparison",
+          "Fee and reward summaries",
+          "KYC and region notes",
+          "Safety notes and common questions"
+        ]
+      },
+      "role": {
+        "zh": [
+          "收集并分类公开资料",
+          "设计对比字段",
+          "整理移动端可读的静态页面"
+        ],
+        "en": [
+          "Collected and categorized public information",
+          "Designed comparison fields",
+          "Prepared a mobile-readable static site"
+        ]
+      },
+      "challenges": {
+        "zh": [
+          "产品规则更新频繁",
+          "不同来源的字段口径不一致"
+        ],
+        "en": [
+          "Product rules change often",
+          "Different sources use inconsistent definitions"
+        ]
+      },
+      "solutions": {
+        "zh": [
+          "按统一字段重新整理",
+          "保留风险提示并避免把旧信息写成永久结论"
+        ],
+        "en": [
+          "Normalized information into a shared schema",
+          "Kept risk notes visible and avoided presenting dated information as permanent"
+        ]
+      },
+      "status": {
+        "zh": "已发布静态版本，资料仍需定期复核",
+        "en": "Public static version available; data still needs periodic review"
+      },
+      "next": {
+        "zh": [
+          "补充更新时间与来源说明",
+          "继续改善筛选与比较体验"
+        ],
+        "en": [
+          "Add clearer update dates and source notes",
+          "Improve filtering and comparison"
+        ]
+      },
+      "tech": [
+        "React",
+        "Data Research",
+        "Responsive UI",
+        "GitHub Pages"
+      ],
+      "screenshot": "/screenshots/ucards-compare.png",
+      "live": "https://91vrvd.github.io/ucards-compare/"
+    },
+    {
+      "id": "crypto-tutorial-site",
+      "title": {
+        "zh": "加密入门教程网站",
+        "en": "Crypto Beginner Tutorial"
+      },
+      "category": {
+        "zh": "教程网站",
+        "en": "Tutorial Website"
+      },
+      "summary": {
+        "zh": "面向新手的单页入门路径，先讲安全，再介绍交易所、钱包、U 卡与常见问题。",
+        "en": "A single-page beginner path that starts with safety, then introduces exchanges, wallets, U cards, and common questions."
+      },
+      "background": {
+        "zh": "新手资料常把概念、操作和推广链接混在一起，容易忽略最先应该了解的安全问题。",
+        "en": "Beginner material often mixes concepts, instructions, and promotion while giving too little attention to safety."
+      },
+      "motivation": {
+        "zh": "把自己反复解释的基础内容整理成更清楚的阅读顺序。",
+        "en": "I wanted a clearer reading order for foundational topics I found myself explaining repeatedly."
+      },
+      "problem": {
+        "zh": "既要让内容容易理解，也不能把高风险操作写成无条件建议。",
+        "en": "The content needed to stay approachable without turning risky actions into unconditional advice."
+      },
+      "features": {
+        "zh": [
+          "安全与防骗提示",
+          "基础概念",
+          "交易所与钱包路径",
+          "U 卡与常见问题"
+        ],
+        "en": [
+          "Safety and scam awareness",
+          "Core concepts",
+          "Exchange and wallet path",
+          "U cards and common questions"
+        ]
+      },
+      "role": {
+        "zh": [
+          "整理章节结构",
+          "编写和校对公开说明",
+          "完成静态页面与 GitHub Pages 发布"
+        ],
+        "en": [
+          "Structured the chapters",
+          "Wrote and reviewed the public explanations",
+          "Built and published the static GitHub Pages site"
+        ]
+      },
+      "challenges": {
+        "zh": [
+          "内容容易过时",
+          "部分术语对新手不友好"
+        ],
+        "en": [
+          "The subject changes quickly",
+          "Many terms are unfriendly to beginners"
+        ]
+      },
+      "solutions": {
+        "zh": [
+          "使用短段落和分步结构",
+          "把风险提示放在操作说明之前"
+        ],
+        "en": [
+          "Used short sections and step-by-step structure",
+          "Placed risk notes before operational instructions"
+        ]
+      },
+      "status": {
+        "zh": "已发布，可继续校对与更新",
+        "en": "Published and available for continued review and updates"
+      },
+      "next": {
+        "zh": [
+          "补充版本日期",
+          "继续检查外部链接和过时内容"
+        ],
+        "en": [
+          "Add version dates",
+          "Continue checking external links and outdated material"
+        ]
+      },
+      "tech": [
+        "HTML",
+        "CSS",
+        "Static Site",
+        "GitHub Pages"
+      ],
+      "screenshot": "/screenshots/crypto-tutorial-site.png",
+      "github": "https://github.com/91vrvd/crypto-tutorial-site",
+      "live": "https://91vrvd.github.io/crypto-tutorial-site/"
+    },
+    {
+      "id": "vibe-air-guitar",
+      "title": {
+        "zh": "Vibe Air Guitar",
+        "en": "Vibe Air Guitar"
+      },
+      "category": {
+        "zh": "互动实验",
+        "en": "Interactive Experiment"
+      },
+      "summary": {
+        "zh": "使用摄像头手势与浏览器声音能力做的空气吉他互动实验。",
+        "en": "A browser experiment that combines camera-based gestures with web audio for an air-guitar interaction."
+      },
+      "background": {
+        "zh": "这是一次把手势识别、音频反馈和网页交互放在同一个页面里的练习。",
+        "en": "This was a practice project for combining hand tracking, audio feedback, and browser interaction in one page."
+      },
+      "motivation": {
+        "zh": "想验证不依赖专用硬件时，浏览器能否提供有即时反馈的轻量互动。",
+        "en": "I wanted to test whether a browser could deliver responsive interaction without dedicated hardware."
+      },
+      "problem": {
+        "zh": "摄像头权限、环境光和设备性能都会影响手势识别的稳定性。",
+        "en": "Camera permission, lighting, and device performance all affect gesture stability."
+      },
+      "features": {
+        "zh": [
+          "摄像头手势输入",
+          "和弦切换",
+          "浏览器内声音反馈",
+          "无需安装的网页体验"
+        ],
+        "en": [
+          "Camera gesture input",
+          "Chord switching",
+          "In-browser sound feedback",
+          "No-install web experience"
+        ]
+      },
+      "role": {
+        "zh": [
+          "整理交互流程",
+          "调试摄像头与声音反馈",
+          "完成公开页面"
+        ],
+        "en": [
+          "Defined the interaction flow",
+          "Tested camera and audio feedback",
+          "Prepared the public page"
+        ]
+      },
+      "challenges": {
+        "zh": [
+          "不同设备的识别效果不一致",
+          "浏览器对自动播放和权限有明确限制"
+        ],
+        "en": [
+          "Recognition quality varies between devices",
+          "Browsers enforce strict autoplay and permission rules"
+        ]
+      },
+      "solutions": {
+        "zh": [
+          "由用户主动授权摄像头和声音",
+          "把实验定位和设备限制写清楚"
+        ],
+        "en": [
+          "Required explicit camera and audio permission",
+          "Explained the experimental nature and device limitations"
+        ]
+      },
+      "status": {
+        "zh": "公开实验版本可访问",
+        "en": "A public experimental build is available"
+      },
+      "next": {
+        "zh": [
+          "继续改善弱光与移动端反馈",
+          "补充更清楚的首次使用提示"
+        ],
+        "en": [
+          "Improve low-light and mobile feedback",
+          "Add clearer first-use guidance"
+        ]
+      },
+      "tech": [
+        "Computer Vision",
+        "Hand Tracking",
+        "Web Audio",
+        "GitHub Pages"
+      ],
+      "screenshot": "/screenshots/vibe-air-guitar.png",
+      "live": "https://91vrvd.github.io/vibe-air-guitar/"
+    },
+    {
+      "id": "agent-workspace",
+      "title": {
+        "zh": "多 Agent 与 Obsidian 工作流",
+        "en": "Multi-Agent and Obsidian Workflow"
+      },
+      "category": {
+        "zh": "个人实践",
+        "en": "Personal Practice"
+      },
+      "summary": {
+        "zh": "把代码、资料研究、内容整理和复盘分给不同 AI 角色，再用本地知识库保存可复用结论。",
+        "en": "A personal workflow that separates coding, research, content organization, and review across AI roles, with reusable conclusions stored locally."
+      },
+      "background": {
+        "zh": "任务变长以后，聊天记录和结论很容易散落，重复解释也会增加。",
+        "en": "As tasks grew longer, decisions became scattered across conversations and the same context had to be repeated."
+      },
+      "motivation": {
+        "zh": "希望在长任务中保留清楚的上下文和结论，减少反复解释与重复工作。",
+        "en": "The goal is to keep context and decisions clear across long tasks while reducing repeated explanations and duplicated work."
+      },
+      "problem": {
+        "zh": "不同 Agent 的上下文和输出格式需要统一，否则资料会越来越难维护。",
+        "en": "Context and output formats need to stay consistent across agents or the workspace becomes harder to maintain."
+      },
+      "features": {
+        "zh": [
+          "角色分工",
+          "任务记录",
+          "Obsidian 知识库",
+          "复盘日志"
+        ],
+        "en": [
+          "Role-based task splitting",
+          "Task records",
+          "Obsidian knowledge base",
+          "Review logs"
+        ]
+      },
+      "role": {
+        "zh": [
+          "定义角色和读写规则",
+          "整理可复用流程",
+          "持续记录失败原因和修复方式"
+        ],
+        "en": [
+          "Defined roles and read/write rules",
+          "Organized reusable workflows",
+          "Recorded failure causes and fixes over time"
+        ]
+      },
+      "challenges": {
+        "zh": [
+          "长期资料容易重复或冲突",
+          "多个角色的结论需要统一归档"
+        ],
+        "en": [
+          "Long-running notes can duplicate or conflict",
+          "Conclusions from different roles need one shared structure"
+        ]
+      },
+      "solutions": {
+        "zh": [
+          "设置统一资料入口",
+          "发布前检查事实与链接",
+          "把结论整理成可复用的任务记录"
+        ],
+        "en": [
+          "Established one reference entry point",
+          "Checked facts and links before publishing",
+          "Turned conclusions into reusable task records"
+        ]
+      },
+      "status": {
+        "zh": "持续进行的个人工作流实践",
+        "en": "An ongoing personal workflow practice"
+      },
+      "next": {
+        "zh": [
+          "减少重复规则",
+          "为常见任务补充可验证的检查清单"
+        ],
+        "en": [
+          "Reduce duplicated rules",
+          "Add verifiable checklists for recurring tasks"
+        ]
+      },
+      "tech": [
+        "Codex",
+        "Obsidian",
+        "Git",
+        "Automation",
+        "Prompt Design"
+      ],
+      "screenshot": "/screenshots/agent-workspace.jpg"
+    }
+  ],
+  "experiences": [
+    {
+      "id": "web3-market-practice",
+      "type": {
+        "zh": "长期个人实践",
+        "en": "Long-term Personal Practice"
+      },
+      "title": {
+        "zh": "加密市场交易与 Web3 研究",
+        "en": "Crypto Trading and Web3 Research"
+      },
+      "context": {
+        "zh": "交易所、钱包、链上生态与项目研究",
+        "en": "Exchanges, wallets, on-chain ecosystems, and project research"
+      },
+      "period": {
+        "zh": "9 年持续参与",
+        "en": "Nine years of ongoing practice"
+      },
+      "summary": {
+        "zh": "持续参与加密货币市场交易 9 年，也在实际使用中逐步扩展到钱包、链上交易、DeFi、空投与项目研究。",
+        "en": "Nine years of personal crypto-market trading, with hands-on use gradually expanding into wallets, on-chain transactions, DeFi, airdrops, and project research."
+      },
+      "responsibilities": {
+        "zh": [
+          "使用中心化交易所与钱包完成日常交易和资产操作",
+          "通过 DEX、跨链桥、DeFi 协议与区块浏览器完成链上操作",
+          "跟踪融资、产品、代币机制、上线节奏、链上数据与社区信息",
+          "关注空投、测试网、交易所活动和新生态，并优先核对官方来源",
+          "把市场信息整理成观察清单，区分事实、情绪和未经证实的传言"
+        ],
+        "en": [
+          "Used centralized exchanges and wallets for day-to-day trading and asset operations",
+          "Worked with DEXs, bridges, DeFi protocols, and block explorers for on-chain activity",
+          "Tracked funding, products, token mechanics, launch timelines, on-chain data, and community signals",
+          "Followed airdrops, testnets, exchange campaigns, and new ecosystems while checking official sources first",
+          "Organized market information into watchlists that separate facts, sentiment, and unverified claims"
+        ]
+      },
+      "tools": [
+        "CEX",
+        "Wallets",
+        "DEX",
+        "DeFi",
+        "Cross-chain Bridges",
+        "Block Explorers",
+        "On-chain Data"
+      ],
+      "learning": {
+        "zh": "长期参与市场后，更看重账户与钱包安全、来源核验和风险控制，也接受每一次判断都可能出错。",
+        "en": "Long-term market participation has made account and wallet security, source verification, and risk control more important than chasing every move, while accepting that any market judgment can be wrong."
+      },
+      "status": {
+        "zh": "持续进行的个人研究与交易实践",
+        "en": "Ongoing personal research and trading practice"
+      }
+    },
+    {
+      "id": "homestay-operations",
+      "type": {
+        "zh": "工作经历",
+        "en": "Work Experience"
+      },
+      "title": {
+        "zh": "民宿与门店运营",
+        "en": "Homestay and Store Operations"
+      },
+      "context": {
+        "zh": "多地民宿与门店运营场景",
+        "en": "Homestay and store operations across multiple sites"
+      },
+      "period": {
+        "zh": "过往经历",
+        "en": "Previous experience"
+      },
+      "summary": {
+        "zh": "从日常门店运行到新店筹备，处理接待、订单、现场协调、物资和服务问题。",
+        "en": "Worked across daily store operations and opening preparation, covering guests, orders, on-site coordination, supplies, and service issues."
+      },
+      "responsibilities": {
+        "zh": [
+          "协调前台、客房、餐饮、采购等日常事项",
+          "跟进客人到店前信息、现场需求与投诉",
+          "整理物资、库存、账目、报表和 SOP",
+          "参与排班、活动执行与新店开业准备"
+        ],
+        "en": [
+          "Coordinated reception, housekeeping, dining, and purchasing tasks",
+          "Followed up on pre-arrival details, on-site requests, and complaints",
+          "Organized inventory, accounts, reports, and SOP documents",
+          "Supported rosters, events, and opening preparation"
+        ]
+      },
+      "tools": [
+        "Ctrip",
+        "Meituan",
+        "Fliggy",
+        "Excel",
+        "Word",
+        "PPT"
+      ],
+      "learning": {
+        "zh": "现场运营最重要的是信息清楚、责任明确，并且给临时变化留出处理空间。",
+        "en": "Clear information, clear ownership, and room for unexpected changes matter most in day-to-day operations."
+      },
+      "status": {
+        "zh": "已结束，经验持续整理",
+        "en": "Completed; lessons are still being organized"
+      }
+    },
+    {
+      "id": "ota-content",
+      "type": {
+        "zh": "工作与实践",
+        "en": "Work and Practice"
+      },
+      "title": {
+        "zh": "OTA 与内容运营",
+        "en": "OTA and Content Operations"
+      },
+      "context": {
+        "zh": "民宿、门店和本地生活内容",
+        "en": "Homestay, store, and local-service content"
+      },
+      "period": {
+        "zh": "过往与持续实践",
+        "en": "Previous and ongoing practice"
+      },
+      "summary": {
+        "zh": "维护平台页面与套餐资料，也独立完成过宣传片和日常内容的拍摄、剪辑、图片处理与交付。",
+        "en": "Maintained platform listings and packages, and independently produced promotional and day-to-day content from shooting through editing and delivery."
+      },
+      "responsibilities": {
+        "zh": [
+          "整理携程、美团、飞猪等平台页面与套餐",
+          "参与抖音团购和小红书内容准备",
+          "使用索尼相机和大疆无人机完成地面与航拍素材",
+          "使用达芬奇和剪映完成剪辑、调色、字幕与成片输出",
+          "处理宣传图片、海报、菜单和平台用图",
+          "根据淡旺季、活动和现场反馈调整信息"
+        ],
+        "en": [
+          "Organized Ctrip, Meituan, and Fliggy listings and packages",
+          "Prepared material for Douyin group deals and Xiaohongshu",
+          "Captured ground and aerial footage with Sony cameras and DJI drones",
+          "Edited, color-corrected, subtitled, and delivered videos with DaVinci Resolve and Jianying",
+          "Prepared promotional images, posters, menus, and platform graphics",
+          "Adjusted information around seasons, campaigns, and on-site feedback"
+        ]
+      },
+      "tools": [
+        "Sony Camera",
+        "DJI Drone",
+        "DaVinci Resolve",
+        "Jianying",
+        "Image Editing",
+        "Ctrip",
+        "Douyin",
+        "Xiaohongshu"
+      ],
+      "learning": {
+        "zh": "页面信息、现场体验和客人沟通是同一条链路，不能只优化其中一段。",
+        "en": "Listing information, the on-site experience, and guest communication are one connected journey."
+      },
+      "status": {
+        "zh": "经验持续用于内容和网站整理",
+        "en": "The experience continues to inform content and site work"
+      }
+    },
+    {
+      "id": "medical-business",
+      "type": {
+        "zh": "工作经历",
+        "en": "Work Experience"
+      },
+      "title": {
+        "zh": "医药商业代表",
+        "en": "Medical Business Representative"
+      },
+      "context": {
+        "zh": "医药商业沟通场景",
+        "en": "Medical business communication"
+      },
+      "period": {
+        "zh": "早期经历",
+        "en": "Earlier experience"
+      },
+      "summary": {
+        "zh": "负责基础商务沟通、资料跟进和关系维护，也培养了准确记录与及时反馈的习惯。",
+        "en": "Handled basic business communication, material follow-up, and relationship maintenance while building habits around accurate records and timely feedback."
+      },
+      "responsibilities": {
+        "zh": [
+          "跟进日常沟通与资料",
+          "整理阶段事项和反馈",
+          "维护基本合作关系"
+        ],
+        "en": [
+          "Followed up on routine communication and materials",
+          "Organized updates and feedback",
+          "Maintained working relationships"
+        ]
+      },
+      "tools": [
+        "Office",
+        "Communication",
+        "Documentation"
+      ],
+      "learning": {
+        "zh": "沟通后及时整理记录，跟进资料和反馈。",
+        "en": "Keep notes after conversations and follow up on materials and feedback."
+      },
+      "status": {
+        "zh": "已结束",
+        "en": "Completed"
+      }
+    },
+    {
+      "id": "visual-production",
+      "type": {
+        "zh": "项目实践",
+        "en": "Project Practice"
+      },
+      "title": {
+        "zh": "宣传片与影像内容制作",
+        "en": "Promotional Video and Visual Production"
+      },
+      "context": {
+        "zh": "门店、空间、活动和旅行内容",
+        "en": "Stores, spaces, events, and travel content"
+      },
+      "period": {
+        "zh": "持续实践",
+        "en": "Ongoing practice"
+      },
+      "summary": {
+        "zh": "可以独立完成从拍摄准备、地面与航拍素材采集，到剪辑、基础调色、字幕、声音和多平台输出的完整流程。",
+        "en": "Can independently take a visual project from shooting preparation and ground or aerial capture through editing, basic color work, subtitles, sound, and multi-platform delivery."
+      },
+      "responsibilities": {
+        "zh": [
+          "根据空间、活动或产品整理拍摄思路与镜头清单",
+          "使用索尼相机拍摄人物、环境和细节画面",
+          "使用大疆无人机补充空间关系、环境和移动镜头",
+          "在达芬奇或剪映中整理素材并完成剪辑、调色、字幕与声音",
+          "根据抖音、小红书、OTA 页面和线下展示要求输出不同版本",
+          "处理照片、宣传图、封面、菜单和平台详情图片"
+        ],
+        "en": [
+          "Prepared shooting plans and shot lists around a space, event, or product",
+          "Captured people, environments, and detail shots with Sony cameras",
+          "Used DJI drones for spatial context, location views, and moving shots",
+          "Organized footage and completed editing, color work, subtitles, and sound in DaVinci Resolve or Jianying",
+          "Delivered versions for Douyin, Xiaohongshu, OTA listings, and on-site display",
+          "Edited photos, promotional graphics, covers, menus, and platform detail images"
+        ]
+      },
+      "tools": [
+        "Sony Camera",
+        "DJI Drone",
+        "DaVinci Resolve",
+        "Jianying",
+        "Image Editing"
+      ],
+      "learning": {
+        "zh": "一个人完成全流程时，前期镜头清单和素材管理会直接影响后期效率，也决定成片是否围绕真实使用场景。",
+        "en": "When one person owns the full process, the shot list and media organization shape both editing efficiency and whether the finished piece fits its real use."
+      },
+      "status": {
+        "zh": "持续用于内容和宣传项目",
+        "en": "Used in ongoing content and promotional projects"
+      }
+    },
+    {
+      "id": "ai-project-practice",
+      "type": {
+        "zh": "个人项目实践",
+        "en": "Personal Project Practice"
+      },
+      "title": {
+        "zh": "AI 工具与轻量网站",
+        "en": "AI Tools and Lightweight Websites"
+      },
+      "context": {
+        "zh": "个人工作流与公开项目",
+        "en": "Personal workflow and public projects"
+      },
+      "period": {
+        "zh": "持续进行",
+        "en": "Ongoing"
+      },
+      "summary": {
+        "zh": "使用 GPT、Claude、Gemini 和 Codex 做资料整理、任务拆解、代码修改与测试，产出可实际访问的个人项目。",
+        "en": "Use GPT, Claude, Gemini, and Codex for research organization, task breakdown, code changes, and testing across usable personal projects."
+      },
+      "responsibilities": {
+        "zh": [
+          "把实际需求拆成可验证的功能",
+          "阅读和修改 React、Vite 与 Tailwind 项目",
+          "使用 Git 记录修改并通过 GitHub Pages 发布部分项目",
+          "在 Obsidian 中维护项目索引与复盘"
+        ],
+        "en": [
+          "Turned real needs into verifiable features",
+          "Inspected and modified React, Vite, and Tailwind projects",
+          "Used Git to track changes and GitHub Pages for selected public projects",
+          "Maintained project indexes and reviews in Obsidian"
+        ]
+      },
+      "tools": [
+        "GPT",
+        "Claude",
+        "Gemini",
+        "Codex",
+        "Obsidian",
+        "React",
+        "Vite",
+        "Git"
+      ],
+      "learning": {
+        "zh": "我用 AI 整理资料和起草代码，再检查来源、链接和功能。",
+        "en": "I use AI to organize research and draft code, then check the sources, links, and features."
+      },
+      "status": {
+        "zh": "持续学习和实践",
+        "en": "Ongoing learning and practice"
+      }
+    }
+  ],
+  "skillGroups": [
+    {
+      "id": "web3",
+      "title": {
+        "zh": "Web3 与加密市场",
+        "en": "Web3 and Crypto Markets"
+      },
+      "description": {
+        "zh": "9 年个人交易与市场参与经验，重点放在信息核验、链上工具和风险判断。",
+        "en": "Nine years of personal trading and market participation, with an emphasis on source checks, on-chain tools, and risk judgment."
+      },
+      "skills": [
+        {
+          "name": {
+            "zh": "加密市场交易与风险意识",
+            "en": "Crypto Trading and Risk Awareness"
+          },
+          "level": "regular",
+          "useCases": {
+            "zh": [
+              "交易所操作",
+              "市场周期观察",
+              "仓位与风险控制",
+              "账户安全"
+            ],
+            "en": [
+              "Exchange operations",
+              "Market-cycle observation",
+              "Position and risk control",
+              "Account security"
+            ]
+          },
+          "projects": [
+            "ucards-compare",
+            "crypto-tutorial-site"
+          ],
+          "lastUsed": {
+            "zh": "9 年持续参与",
+            "en": "Nine years of ongoing practice"
+          }
+        },
+        {
+          "name": {
+            "zh": "钱包、链上与 DeFi",
+            "en": "Wallets, On-chain Tools, and DeFi"
+          },
+          "level": "working",
+          "useCases": {
+            "zh": [
+              "钱包管理",
+              "DEX 与跨链",
+              "Gas、滑点与流动性",
+              "授权检查"
+            ],
+            "en": [
+              "Wallet management",
+              "DEXs and bridges",
+              "Gas, slippage, and liquidity",
+              "Approval checks"
+            ]
+          },
+          "projects": [
+            "ucards-compare",
+            "crypto-tutorial-site"
+          ],
+          "lastUsed": {
+            "zh": "持续使用",
+            "en": "Used regularly"
+          }
+        },
+        {
+          "name": {
+            "zh": "Web3 项目研究",
+            "en": "Web3 Project Research"
+          },
+          "level": "regular",
+          "useCases": {
+            "zh": [
+              "团队与融资",
+              "产品与代币机制",
+              "链上数据",
+              "社区与上线节奏"
+            ],
+            "en": [
+              "Team and funding",
+              "Product and token mechanics",
+              "On-chain data",
+              "Community and launch timelines"
+            ]
+          },
+          "projects": [
+            "ucards-compare",
+            "crypto-tutorial-site"
+          ],
+          "lastUsed": {
+            "zh": "近期持续使用",
+            "en": "Used regularly"
+          }
+        },
+        {
+          "name": {
+            "zh": "空投与生态跟踪",
+            "en": "Airdrop and Ecosystem Tracking"
+          },
+          "level": "working",
+          "useCases": {
+            "zh": [
+              "新项目观察",
+              "测试网与活动",
+              "官方来源核验",
+              "钱包隔离与安全检查"
+            ],
+            "en": [
+              "New-project monitoring",
+              "Testnets and campaigns",
+              "Official-source checks",
+              "Wallet separation and security checks"
+            ]
+          },
+          "projects": [
+            "crypto-tutorial-site",
+            "agent-workspace"
+          ],
+          "lastUsed": {
+            "zh": "持续跟踪",
+            "en": "Tracked regularly"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-workflow",
+      "title": {
+        "zh": "AI 工具与工作流",
+        "en": "AI Tools and Workflows"
+      },
+      "description": {
+        "zh": "把 AI 当作研究、整理和开发助手，最终结果由自己检查。",
+        "en": "Using AI for research, organization, and development assistance, with human review at the end."
+      },
+      "skills": [
+        {
+          "name": {
+            "zh": "GPT / Claude / Gemini",
+            "en": "GPT / Claude / Gemini"
+          },
+          "level": "regular",
+          "useCases": {
+            "zh": [
+              "资料总结",
+              "文案初稿",
+              "方案比较"
+            ],
+            "en": [
+              "Research summaries",
+              "First drafts",
+              "Option comparison"
+            ]
+          },
+          "projects": [
+            "agent-workspace",
+            "crypto-tutorial-site"
+          ],
+          "lastUsed": {
+            "zh": "近期持续使用",
+            "en": "Used regularly"
+          }
+        },
+        {
+          "name": {
+            "zh": "Codex 辅助开发",
+            "en": "Codex-assisted Development"
+          },
+          "level": "working",
+          "useCases": {
+            "zh": [
+              "阅读代码",
+              "实现功能",
+              "测试与修复"
+            ],
+            "en": [
+              "Code inspection",
+              "Feature implementation",
+              "Testing and fixes"
+            ]
+          },
+          "projects": [
+            "liu-os",
+            "ucards-compare"
+          ],
+          "lastUsed": {
+            "zh": "当前使用",
+            "en": "Currently in use"
+          }
+        },
+        {
+          "name": {
+            "zh": "Agent 分工与提示词",
+            "en": "Agent Task Splitting and Prompts"
+          },
+          "level": "working",
+          "useCases": {
+            "zh": [
+              "任务拆解",
+              "角色边界",
+              "结果复盘"
+            ],
+            "en": [
+              "Task breakdown",
+              "Role boundaries",
+              "Result review"
+            ]
+          },
+          "projects": [
+            "agent-workspace"
+          ],
+          "lastUsed": {
+            "zh": "当前使用",
+            "en": "Currently in use"
+          }
+        }
+      ]
+    },
+    {
+      "id": "operations",
+      "title": {
+        "zh": "运营与客户服务",
+        "en": "Operations and Guest Service"
+      },
+      "description": {
+        "zh": "来自民宿、门店和本地服务的一线工作经验。",
+        "en": "Hands-on experience from homestay, store, and local-service settings."
+      },
+      "skills": [
+        {
+          "name": {
+            "zh": "门店日常与现场协调",
+            "en": "Store Routines and On-site Coordination"
+          },
+          "level": "regular",
+          "useCases": {
+            "zh": [
+              "接待与订单",
+              "部门协调",
+              "突发问题"
+            ],
+            "en": [
+              "Reception and orders",
+              "Team coordination",
+              "Unexpected issues"
+            ]
+          },
+          "projects": [],
+          "lastUsed": {
+            "zh": "过往工作经验",
+            "en": "Previous work experience"
+          }
+        },
+        {
+          "name": {
+            "zh": "OTA 页面与套餐",
+            "en": "OTA Listings and Packages"
+          },
+          "level": "regular",
+          "useCases": {
+            "zh": [
+              "携程",
+              "美团",
+              "飞猪",
+              "抖音团购"
+            ],
+            "en": [
+              "Ctrip",
+              "Meituan",
+              "Fliggy",
+              "Douyin group deals"
+            ]
+          },
+          "projects": [],
+          "lastUsed": {
+            "zh": "过往与持续整理",
+            "en": "Previous work and ongoing review"
+          }
+        },
+        {
+          "name": {
+            "zh": "SOP 与资料归档",
+            "en": "SOP and Documentation"
+          },
+          "level": "regular",
+          "useCases": {
+            "zh": [
+              "物资盘点",
+              "报表",
+              "服务流程"
+            ],
+            "en": [
+              "Inventory",
+              "Reports",
+              "Service workflows"
+            ]
+          },
+          "projects": [
+            "agent-workspace"
+          ],
+          "lastUsed": {
+            "zh": "持续使用",
+            "en": "Used regularly"
+          }
+        }
+      ]
+    },
+    {
+      "id": "content",
+      "title": {
+        "zh": "影像拍摄与后期",
+        "en": "Video Production and Post-production"
+      },
+      "description": {
+        "zh": "可以一个人完成宣传片从前期准备、现场拍摄到后期成片的完整流程。",
+        "en": "Able to carry a promotional video from preparation and on-site shooting through final post-production independently."
+      },
+      "skills": [
+        {
+          "name": {
+            "zh": "索尼相机与大疆无人机",
+            "en": "Sony Cameras and DJI Drones"
+          },
+          "level": "working",
+          "useCases": {
+            "zh": [
+              "宣传片拍摄",
+              "空间与环境航拍",
+              "活动和门店素材",
+              "旅行影像"
+            ],
+            "en": [
+              "Promotional videos",
+              "Aerial location footage",
+              "Events and store content",
+              "Travel footage"
+            ]
+          },
+          "projects": [],
+          "lastUsed": {
+            "zh": "按拍摄项目使用",
+            "en": "Used for shooting projects"
+          }
+        },
+        {
+          "name": {
+            "zh": "达芬奇与剪映后期",
+            "en": "DaVinci Resolve and Jianying"
+          },
+          "level": "regular",
+          "useCases": {
+            "zh": [
+              "素材管理",
+              "剪辑节奏",
+              "基础调色",
+              "字幕与音频",
+              "多平台输出"
+            ],
+            "en": [
+              "Media organization",
+              "Editing rhythm",
+              "Color correction",
+              "Subtitles and audio",
+              "Multi-platform delivery"
+            ]
+          },
+          "projects": [],
+          "lastUsed": {
+            "zh": "持续使用",
+            "en": "Used regularly"
+          }
+        },
+        {
+          "name": {
+            "zh": "宣传片独立制作",
+            "en": "Independent Promotional Production"
+          },
+          "level": "working",
+          "useCases": {
+            "zh": [
+              "拍摄思路",
+              "镜头清单",
+              "现场执行",
+              "剪辑与交付"
+            ],
+            "en": [
+              "Shooting approach",
+              "Shot lists",
+              "On-site production",
+              "Editing and delivery"
+            ]
+          },
+          "projects": [],
+          "lastUsed": {
+            "zh": "有完整项目经验",
+            "en": "Completed full production projects"
+          }
+        },
+        {
+          "name": {
+            "zh": "图片处理与视觉物料",
+            "en": "Image Editing and Visual Assets"
+          },
+          "level": "working",
+          "useCases": {
+            "zh": [
+              "照片调整",
+              "宣传图",
+              "海报与菜单",
+              "平台封面和详情图"
+            ],
+            "en": [
+              "Photo adjustments",
+              "Promotional graphics",
+              "Posters and menus",
+              "Platform covers and detail images"
+            ]
+          },
+          "projects": [],
+          "lastUsed": {
+            "zh": "按内容项目使用",
+            "en": "Used for content projects"
+          }
+        }
+      ]
+    },
+    {
+      "id": "web",
+      "title": {
+        "zh": "网页与发布",
+        "en": "Web and Publishing"
+      },
+      "description": {
+        "zh": "能在现有项目中完成实际修改、调试和静态发布，并持续补基础。",
+        "en": "Able to make practical changes, debug existing projects, and publish static sites while continuing to build fundamentals."
+      },
+      "skills": [
+        {
+          "name": {
+            "zh": "HTML / CSS",
+            "en": "HTML / CSS"
+          },
+          "level": "working",
+          "useCases": {
+            "zh": [
+              "页面结构",
+              "响应式样式",
+              "视觉调整"
+            ],
+            "en": [
+              "Page structure",
+              "Responsive styles",
+              "Visual adjustments"
+            ]
+          },
+          "projects": [
+            "crypto-tutorial-site",
+            "liu-os"
+          ],
+          "lastUsed": {
+            "zh": "当前使用",
+            "en": "Currently in use"
+          }
+        },
+        {
+          "name": {
+            "zh": "React / Vite / Tailwind",
+            "en": "React / Vite / Tailwind"
+          },
+          "level": "learning",
+          "useCases": {
+            "zh": [
+              "现有项目修改",
+              "组件调整",
+              "构建排错"
+            ],
+            "en": [
+              "Existing project changes",
+              "Component updates",
+              "Build troubleshooting"
+            ]
+          },
+          "projects": [
+            "liu-os",
+            "ucards-compare"
+          ],
+          "lastUsed": {
+            "zh": "当前学习与实践",
+            "en": "Currently learning through practice"
+          }
+        },
+        {
+          "name": {
+            "zh": "Git / GitHub Pages",
+            "en": "Git / GitHub Pages"
+          },
+          "level": "working",
+          "useCases": {
+            "zh": [
+              "版本记录",
+              "静态部署",
+              "公开项目维护"
+            ],
+            "en": [
+              "Version history",
+              "Static deployment",
+              "Public project maintenance"
+            ]
+          },
+          "projects": [
+            "ucards-compare",
+            "crypto-tutorial-site",
+            "vibe-air-guitar"
+          ],
+          "lastUsed": {
+            "zh": "近期使用",
+            "en": "Used recently"
+          }
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": {
+        "zh": "办公与知识整理",
+        "en": "Office and Knowledge Organization"
+      },
+      "description": {
+        "zh": "整理报表、说明文档、培训资料和项目笔记。",
+        "en": "Reports, documentation, training material, and project notes."
+      },
+      "skills": [
+        {
+          "name": {
+            "zh": "Word / Excel / PPT",
+            "en": "Word / Excel / PowerPoint"
+          },
+          "level": "regular",
+          "useCases": {
+            "zh": [
+              "报表与清单",
+              "说明文档",
+              "展示与培训资料"
+            ],
+            "en": [
+              "Reports and lists",
+              "Documentation",
+              "Presentation and training material"
+            ]
+          },
+          "projects": [],
+          "lastUsed": {
+            "zh": "持续使用",
+            "en": "Used regularly"
+          }
+        },
+        {
+          "name": {
+            "zh": "Obsidian 知识库",
+            "en": "Obsidian Knowledge Base"
+          },
+          "level": "working",
+          "useCases": {
+            "zh": [
+              "长期记忆",
+              "项目复盘",
+              "资料索引"
+            ],
+            "en": [
+              "Long-term memory",
+              "Project reviews",
+              "Reference indexing"
+            ]
+          },
+          "projects": [
+            "agent-workspace"
+          ],
+          "lastUsed": {
+            "zh": "当前使用",
+            "en": "Currently in use"
+          }
+        }
+      ]
+    }
+  ],
+  "safariBookmarks": [],
+  "mediaTracks": [],
+  "desktopShortcuts": []
+}

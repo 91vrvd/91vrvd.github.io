@@ -1,6 +1,22 @@
-# Liu OS
+# Liu OS · GitHub Pages 版
 
-[打开网站](https://91vrvd.github.io/) · [编辑网站内容](https://github.com/91vrvd/91vrvd.github.io/edit/main/content/site.json) · [发布进度](https://github.com/91vrvd/91vrvd.github.io/actions)
+这是我的个人网站在 GitHub Pages 上的版本。项目、经历和常用工具放在一个仿桌面的界面里；目前功能最全的版本在 [Liu OS 主站](https://liu-os-7obu.qq1279622658.chatgpt.site/desktop/)。
+
+**English:** This repository publishes the GitHub Pages edition of my desktop-style personal site. The current full version is [Liu OS](https://liu-os-7obu.qq1279622658.chatgpt.site/desktop/).
+
+[打开 GitHub Pages 版](https://91vrvd.github.io/) · [编辑网站内容](https://github.com/91vrvd/91vrvd.github.io/edit/main/content/site.json) · [发布进度](https://github.com/91vrvd/91vrvd.github.io/actions)
+
+## 项目目录
+
+| 项目 | 说明 | 在线查看 |
+| --- | --- | --- |
+| [Liu OS 主站](https://liu-os-7obu.qq1279622658.chatgpt.site/desktop/) | 目前在用的个人网站；源码暂未公开 | [打开](https://liu-os-7obu.qq1279622658.chatgpt.site/desktop/) |
+| [给生活的答案](https://github.com/91vrvd/answers-for-life) | 本地保存答案的互动问答册 | [打开](https://91vrvd.github.io/answers-for-life/) |
+| [空气吉他](https://github.com/91vrvd/vibe-air-guitar) | 用摄像头手势切换和弦 | [打开](https://91vrvd.github.io/vibe-air-guitar/) |
+| [U 卡对比百科](https://github.com/91vrvd/ucards-compare) | 对比加密货币消费卡的费用和申请条件 | [打开](https://91vrvd.github.io/ucards-compare/) |
+| [加密入门教程](https://github.com/91vrvd/crypto-tutorial-site) | 给新手看的单页教程 | [打开](https://91vrvd.github.io/crypto-tutorial-site/) |
+| [新电脑配置助手](https://github.com/91vrvd/ai-setup-hub) | 新电脑安装常用工具的步骤和离线包 | [打开](https://ai-setup-hub-91vrvd.qq1279622658.chatgpt.site/) |
+| [企业知识库页面](https://github.com/91vrvd/Add-Enterprise-Knowledge-Base) | 使用示例数据的静态界面 | [查看代码](https://github.com/91vrvd/Add-Enterprise-Knowledge-Base) |
 
 ## 更新网站内容
 
@@ -28,3 +44,5 @@
 先查看发布进度，确认 main 分支的最新部署已成功，再刷新网站。如果 JSON 格式或字段结构有误，网站会继续显示已加载的内容，或使用内置内容，不会把错误数据直接渲染出来。
 
 在文件页面的 **History** 中可以找到旧版本，复制旧内容回编辑页，再提交一次即可恢复。不要编辑 `assets` 中的压缩脚本；它们是生成文件。
+
+页面的小图标使用 [Wikimedia Commons 上的三星旧版标识](https://commons.wikimedia.org/wiki/File:Samsung_old_logo_before_year_2015.svg)。三星是 Samsung Electronics 的商标，本个人网站与三星没有关联。

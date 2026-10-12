@@ -1,8 +1,15 @@
-# Liu OS · GitHub Pages 版
+# Liu OS · 公开静态版源码（GitHub Pages）
 
-这是我的个人网站在 GitHub Pages 上的版本。项目、经历和常用工具放在一个仿桌面的界面里；目前功能最全的版本在 [Liu OS 主站](https://liu-os-7obu.qq1279622658.chatgpt.site/desktop/)。
+这是 Liu OS 的**公开静态版源码**，对应 [91vrvd.github.io](https://91vrvd.github.io/)。它不是当前功能最全的主站源码。完整版网站在 [Liu OS 主站](https://liu-os-7obu.qq1279622658.chatgpt.site/desktop/)，其源码保存在私有仓库 [7obu（仅仓库所有者可访问）](https://github.com/91vrvd/7obu/tree/sites-source)。
 
-**English:** This repository publishes the GitHub Pages edition of my desktop-style personal site. The current full version is [Liu OS](https://liu-os-7obu.qq1279622658.chatgpt.site/desktop/).
+| 要找什么 | 打开哪里 | 说明 |
+| --- | --- | --- |
+| 当前完整版网站 | [Liu OS 主站](https://liu-os-7obu.qq1279622658.chatgpt.site/desktop/) | 网站可公开访问；“私有”指源码仓库，不是网站访问权限 |
+| 当前完整版源码 | [私有仓库 7obu · sites-source](https://github.com/91vrvd/7obu/tree/sites-source) | 仅有仓库权限的账号可以查看，包含完整版前端和服务端源码 |
+| 公开静态版网站与源码 | [91vrvd.github.io](https://91vrvd.github.io/) · [本仓库](https://github.com/91vrvd/91vrvd.github.io) | 这是独立的 GitHub Pages 版本，不包含完整版全部功能 |
+| 旧版历史源码 | [7obu · master](https://github.com/91vrvd/7obu/tree/master) | 历史备份，不是当前主站的更新入口 |
+
+**English:** This public repository contains only the GitHub Pages edition of Liu OS, not the full source. The current full website is [Liu OS](https://liu-os-7obu.qq1279622658.chatgpt.site/desktop/); its source is in a private repository.
 
 [打开 GitHub Pages 版](https://91vrvd.github.io/) · [编辑网站内容](https://github.com/91vrvd/91vrvd.github.io/edit/main/content/site.json) · [发布进度](https://github.com/91vrvd/91vrvd.github.io/actions)
 
